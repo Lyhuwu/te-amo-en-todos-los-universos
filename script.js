@@ -611,8 +611,8 @@ scene.add(planet);
 
 // ---- TẠO CÁC VÒNG CHỮ QUAY QUANH HÀNH TINH ----
 const ringTexts = [
-  'Te amo',
-  "En cada universo",
+  'En cada universo',
+  "Te amo",
   "En cada linea temporal",
   "Te amare",
   ...(window.dataCCD && window.dataCCD.data.ringTexts ? window.dataCCD.data.ringTexts : [])
