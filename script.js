@@ -841,6 +841,13 @@ function playGalaxyAudio() {
   }
 }
 preloadGalaxyAudio();
+document.addEventListener("click", () => {
+  if (galaxyAudio && galaxyAudio.paused) {
+    galaxyAudio.play().catch(err => {
+      console.warn("Autoplay bloqueado:", err);
+    });
+  }
+});
 
 
 
