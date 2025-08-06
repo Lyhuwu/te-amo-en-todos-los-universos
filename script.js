@@ -819,7 +819,7 @@ let galaxyAudio = null;
 
 function preloadGalaxyAudio() {
   const audioSources = [
-   "https://lyhuwu.github.io/te-amo-en-todos-los-universos/music/sere.mp3"
+   "https://lyhuwu.github.io/te-amo-en-todos-los-universos/music/uwito.mp3"
   ];
 
   const randomIndex = Math.floor(Math.random() * audioSources.length);
